@@ -2,8 +2,8 @@ const upload = document.getElementById("upload");
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
-canvas.width = 500;
-canvas.height = 500;
+canvas.width = 800;
+canvas.height = 800;
 
 // Adjust these values based on your frame's transparent area
 const frameConfig = {
